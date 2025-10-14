@@ -9,7 +9,7 @@
 /* ---------- HEADER ---------- */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 15px 50px;
     background-color: #1F2937;
@@ -28,26 +28,19 @@ header {
 
 .header-links a {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #9c9c9d;
     text-decoration: none;
     transition: color 0.3s ease;
-}
-
-.header-links a:hover {
-    color: #3882F6;
 }
 
 /* ---------- HERO SECTION ---------- */
 .all-hero {
     display: flex;
+    justify-content: space-between;
     gap: 50px;
-    padding: 80px 10vw;
+    padding: 5vw 17vw;
     background-color: #1F2937;
     align-items: center;
-}
-
-.hero-text {
-    max-width: 600px;
 }
 
 .main-text {
@@ -67,20 +60,20 @@ button {
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 8px 40px;
     font-size: 16px;
 }
 
 .image-placeholder {
     flex: 1;
-    height: 350px;
+    height: 250px;
+    width: 35vw;
     background-color: #8e8e8e;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
     font-size: 20px;
-    border-radius: 10px;
 }
 
 /* ---------- RANDOM INFO ---------- */
@@ -116,24 +109,33 @@ button {
     text-align: center;
     margin-top: 10px;
     font-size: 14px;
+    color: #9b9b9c;
 }
 
 /* ---------- INSPIRING TEXT ---------- */
 .inspiring-text {
-    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 15vh;
     background-color: #E5E7EB;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 .ins-text {
+    display: flex;
+    align-self: center;
     font-style: italic;
     font-size: 36px;
     font-weight: 300;
     color: #1F2937;
     margin-bottom: 20px;
+    width: 50vw;
 }
 
 .signature {
+    display: flex;
+    align-self: self-end;
     font-weight: 900;
 }
 
@@ -144,7 +146,7 @@ button {
     align-items: center;
     padding: 50px 10vw;
     border-radius: 5px;
-    margin: 5vw;
+    margin: 6vw 15vw;
     background-color: #3882F6;
     gap: 20px;
     flex-wrap: wrap;
@@ -154,16 +156,22 @@ button {
     color: #E5E7EB;
 }
 
+.action-text {
+    font-size: 26px;
+    font-weight: 900;
+}
+
 
 .action-call button {
-    border: #E5E7EB solid 1px;
+    border: #E5E7EB solid 3px;
+    font-weight: 900;
     width: 140px;
     height: 40px;
 }
 
 /* ---------- FOOTER ---------- */
 footer {
-    padding: 20px 50px;
+    padding: 50px 50px;
     background-color: #1F2937;
     color: #E5E7EB;
     text-align: center;
