@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    padding: 10px 200px;
+    background-color: #1F2937;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer {
+    padding: 14px;
+    background-color: #1F2937;
+}
+
+button,
+.action-call {
+    background-color: #3882F6;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #ababab;
+    width: 450px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.info-text {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.b-two {
+    border: #fff solid 1px;
+}
+
+.up-things {
+
+    background-color: #1F2937;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.inspiring-text {
+    padding: 55px;
+    background-color: #E5E7EB;
+}
+
+.ins-text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.all-hero {
+    display: flex;
+    gap: 30px;
+    padding: 100px 200px;
+    background-color: #1F2937;
+}
+
+.rand-info {
+    padding: 40px 70px 70px;
+}
+
+.signature {
+    font-weight: 900;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: #3882F6 solid 4px;
+    flex-wrap: wrap;
+}
+
+.squares {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.squares p {
+    text-align: center;
+    width: 150px;
+}
+
+.s {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-placeholder {
+    color: #E5E7EB;
+    display: flex;
+    width: 560px;
+    height: 200px;
+    background-color: #8e8e8e;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    width: 60%;
+}
+
+.b-one {
+    color: #E5E7EB;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+}
