@@ -1,149 +1,170 @@
+/* Reset general */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Roboto;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-}
-
+/* ---------- HEADER ---------- */
 header {
     display: flex;
-    padding: 10px 200px;
-    background-color: #1F2937;
-}
-
-.header-links {
-    display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
-}
-
-footer {
-    padding: 14px;
+    padding: 15px 50px;
     background-color: #1F2937;
-}
-
-button,
-.action-call {
-    background-color: #3882F6;
-}
-
-a {
-    font-size: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
-}
-
-.secondary-text {
-    font-size: 18px;
-    color: #ababab;
-    width: 450px;
 }
 
 .logo-text {
     font-size: 24px;
     color: #F9FAF8;
-    margin-right: auto;
+    font-weight: 700;
 }
 
-.info-text {
-    text-align: center;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
-    margin-bottom: 30px;
+.header-links {
+    display: flex;
+    gap: 20px;
 }
 
-.b-two {
-    border: #fff solid 1px;
+.header-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
-.up-things {
+.header-links a:hover {
+    color: #3882F6;
+}
 
+/* ---------- HERO SECTION ---------- */
+.all-hero {
+    display: flex;
+    gap: 50px;
+    padding: 80px 10vw;
     background-color: #1F2937;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 600px;
 }
 
 .main-text {
     font-size: 48px;
+    font-weight: 900;
     color: #F9FAF8;
-    font-weight: 900;
+    margin-bottom: 20px;
 }
 
-.inspiring-text {
-    padding: 55px;
-    background-color: #E5E7EB;
+.secondary-text {
+    font-size: 18px;
+    color: #ababab;
+    margin-bottom: 30px;
 }
 
-.ins-text {
-    font-style: italic;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 300;
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 
-.all-hero {
+.image-placeholder {
+    flex: 1;
+    height: 350px;
+    background-color: #8e8e8e;
     display: flex;
-    gap: 30px;
-    padding: 100px 200px;
-    background-color: #1F2937;
-}
-
-.rand-info {
-    padding: 40px 70px 70px;
-}
-
-.signature {
-    font-weight: 900;
-}
-
-.square {
-    width: 150px;
-    height: 150px;
     justify-content: center;
     align-items: center;
+    color: #E5E7EB;
+    font-size: 20px;
     border-radius: 10px;
-    border: #3882F6 solid 4px;
-    flex-wrap: wrap;
+}
+
+/* ---------- RANDOM INFO ---------- */
+.rand-info {
+    padding: 40px 70px 70px;
+    text-align: center;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 30px;
 }
 
 .squares {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .squares p {
-    text-align: center;
     width: 150px;
-}
-
-.s {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.image-placeholder {
-    color: #E5E7EB;
-    display: flex;
-    width: 560px;
-    height: 200px;
-    background-color: #8e8e8e;
     text-align: center;
-    justify-content: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* ---------- INSPIRING TEXT ---------- */
+.inspiring-text {
+    padding: 55px;
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+.ins-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    margin-bottom: 20px;
+}
+
+.signature {
+    font-weight: 900;
+}
+
+/* ---------- CALL TO ACTION ---------- */
+.action-call {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 50px 10vw;
+    border-radius: 5px;
+    margin: 5vw;
+    background-color: #3882F6;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.hero-text {
-    width: 60%;
-}
-
-.b-one {
+.action-call div p {
     color: #E5E7EB;
-    border-radius: 10px;
-    width: 120px;
-    height: 30px;
+}
+
+
+.action-call button {
+    border: #E5E7EB solid 1px;
+    width: 140px;
+    height: 40px;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    padding: 20px 50px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
 }
